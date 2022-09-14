@@ -14,7 +14,7 @@ jobs:
       ENTREPRISE: Semifir
     steps:
       - name: "Dit bonjour"
-        run: echo "Salut $NAME ! Tu travailles pour $ENTREPRISE" ? Alors bon $DAY à toi ! <3"
+        run: echo "Salut $NAME ! Tu travailles pour $ENTREPRISE ? Alors bon $DAY à toi ! <3"
         # Variable dont la portée est limitée à CETTE step
         env:
           DAY: mercredi
